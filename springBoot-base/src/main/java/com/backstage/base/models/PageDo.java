@@ -82,4 +82,12 @@ public class PageDo {
 		}
 		return null;
 	}
+
+	public void setRows(List<Object> rows) {
+		this.rows = rows;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
 }

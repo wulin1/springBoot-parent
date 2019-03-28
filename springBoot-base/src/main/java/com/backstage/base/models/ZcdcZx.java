@@ -47,4 +47,35 @@ public class ZcdcZx {
 
     private String key3;
 
+    public void setZxUuid(String zxUuid) {
+        this.zxUuid = zxUuid;
+    }
+
+    public void setZxStatus(String zxStatus) {
+        this.zxStatus = zxStatus;
+    }
+
+    public String getZxName() {
+        return zxName;
+    }
+
+    public String getZxCode() {
+        return zxCode;
+    }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
 }
