@@ -24,7 +24,7 @@ public class LoginController {
     public  Object findloginById(@RequestBody User user) throws XPFBadRequestException
     {
         if (user != null) {
-            if(StringUtils.isBlank(user.getName())){
+            if(StringUtils.isBlank(user.getUsername())){
                 return new XPFSingleResponse("用户名不能为空");
             }
             if(StringUtils.isBlank(user.getPassword())){
