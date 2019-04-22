@@ -12,9 +12,9 @@ import java.util.List;
 public class LoginServiceImpl implements LoginService {
     @Resource
     private LoginMapper loginMapper;
-    @Override
-    public List<Object> findlogin(User user) {
 
+    @Override
+    public int findlogin(User user) {
         return loginMapper.findlogin(user);
     }
 }

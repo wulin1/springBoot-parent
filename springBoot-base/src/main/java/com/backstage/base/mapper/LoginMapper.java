@@ -12,5 +12,5 @@ public interface LoginMapper {
      * 登录
      * @param user
      */
-    List<Object> findlogin(User user);
+    int findlogin(User user);
 }
